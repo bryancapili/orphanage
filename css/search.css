@@ -1,0 +1,20 @@
+#search{
+	width: 250px; margin: 0 auto; max-height: 150px;  overflow: hidden; 
+}
+#text{
+	width: 250px; padding: 10px; border: 1px solid #f4f4f4; border-radius: 3px;
+}
+.name {
+	-webkit-animation: fade 3s infinite 50ms;
+	animation: fade 3s infinite 50ms;
+}
+@-webkit-keyframes fade {
+	50%{
+		opacity: 0.1;
+	}
+}
+@keyframes fade {
+	50%{
+		opacity: 0.1;
+	}
+}
